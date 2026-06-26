@@ -1,0 +1,38 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#0f2e54"/>
+  <rect y="430" width="800" height="170" fill="#0b2545"/>
+  <!-- sky glow -->
+  <circle cx="650" cy="120" r="180" fill="#e8762c" opacity="0.12"/>
+  <!-- water -->
+  <rect y="470" width="800" height="130" fill="#13355f"/>
+  <path d="M0 470 Q40 460 80 470 T160 470 T240 470 T320 470 T400 470 T480 470 T560 470 T640 470 T720 470 T800 470 V480 H0 Z" fill="#1b4170"/>
+  <!-- ship hull -->
+  <path d="M120 470 L680 470 L640 510 L160 510 Z" fill="#e8762c"/>
+  <rect x="180" y="430" width="50" height="40" fill="#dfe6ee"/>
+  <rect x="240" y="430" width="50" height="40" fill="#c4d2e0"/>
+  <rect x="300" y="420" width="50" height="50" fill="#dfe6ee"/>
+  <rect x="360" y="430" width="50" height="40" fill="#c4d2e0"/>
+  <rect x="420" y="420" width="50" height="50" fill="#dfe6ee"/>
+  <rect x="480" y="430" width="50" height="40" fill="#c4d2e0"/>
+  <rect x="540" y="430" width="50" height="40" fill="#dfe6ee"/>
+  <!-- container colors stacked second row -->
+  <rect x="195" y="390" width="50" height="38" fill="#f0a868"/>
+  <rect x="255" y="390" width="50" height="38" fill="#9fb4cd"/>
+  <rect x="315" y="378" width="50" height="40" fill="#f0a868"/>
+  <rect x="375" y="390" width="50" height="38" fill="#9fb4cd"/>
+  <rect x="435" y="378" width="50" height="40" fill="#f0a868"/>
+  <!-- bridge -->
+  <rect x="600" y="380" width="60" height="90" fill="#dfe6ee"/>
+  <rect x="610" y="395" width="14" height="14" fill="#0f2e54"/>
+  <rect x="632" y="395" width="14" height="14" fill="#0f2e54"/>
+  <rect x="615" y="360" width="30" height="20" fill="#dfe6ee"/>
+  <!-- crane -->
+  <line x1="700" y1="500" x2="700" y2="200" stroke="#c4d2e0" stroke-width="8"/>
+  <line x1="700" y1="220" x2="780" y2="220" stroke="#c4d2e0" stroke-width="8"/>
+  <line x1="700" y1="220" x2="640" y2="240" stroke="#c4d2e0" stroke-width="6"/>
+  <line x1="760" y1="220" x2="760" y2="300" stroke="#e8762c" stroke-width="4"/>
+  <rect x="745" y="296" width="30" height="20" fill="#e8762c"/>
+  <!-- birds -->
+  <path d="M100 100 q10 -10 20 0 q10 -10 20 0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M150 140 q8 -8 16 0 q8 -8 16 0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>

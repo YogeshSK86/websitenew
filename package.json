@@ -1,0 +1,12 @@
+{
+  "name": "uninovatrade-website",
+  "version": "1.0.0",
+  "description": "Uninova Trade — Auto Spares Export, Pharmaceutical Export & Logistics Services website",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html about.html spares-export.html pharma-export.html logistics-services.html contact.html --dist-dir dist"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

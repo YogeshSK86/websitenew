@@ -1,0 +1,31 @@
+<svg viewBox="0 0 700 550" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="550" fill="#f6f8fb"/>
+  <rect y="420" width="700" height="130" fill="#0b2545"/>
+  <!-- stacked containers -->
+  <g>
+    <rect x="60" y="280" width="110" height="60" fill="#0b2545"/>
+    <rect x="60" y="340" width="110" height="60" fill="#e8762c"/>
+    <rect x="180" y="310" width="110" height="60" fill="#9fb4cd"/>
+    <rect x="180" y="370" width="110" height="60" fill="#0b2545"/>
+    <rect x="300" y="280" width="110" height="60" fill="#e8762c"/>
+    <rect x="300" y="340" width="110" height="60" fill="#9fb4cd"/>
+  </g>
+  <!-- gantry crane -->
+  <g>
+    <rect x="430" y="180" width="14" height="240" fill="#c4d2e0"/>
+    <rect x="560" y="180" width="14" height="240" fill="#c4d2e0"/>
+    <rect x="420" y="170" width="164" height="14" fill="#c4d2e0"/>
+    <line x1="500" y1="184" x2="500" y2="320" stroke="#e8762c" stroke-width="5"/>
+    <rect x="475" y="318" width="50" height="22" fill="#e8762c"/>
+    <line x1="500" y1="184" x2="650" y2="220" stroke="#c4d2e0" stroke-width="8"/>
+  </g>
+  <!-- truck -->
+  <g transform="translate(560,360)">
+    <rect x="0" y="0" width="90" height="50" rx="4" fill="#0b2545"/>
+    <rect x="-40" y="14" width="44" height="36" rx="4" fill="#9fb4cd"/>
+    <circle cx="0" cy="55" r="13" fill="#1c2733"/>
+    <circle cx="70" cy="55" r="13" fill="#1c2733"/>
+  </g>
+  <!-- title-less waterline -->
+  <path d="M0 420 Q40 410 80 420 T160 420 T240 420 T320 420 T400 420 T480 420 T560 420 T640 420 T700 420 V440 H0 Z" fill="#13355f"/>
+</svg>
